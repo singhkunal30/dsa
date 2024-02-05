@@ -5,5 +5,8 @@ public class TrieMain {
 		Trie newTrie = new Trie();
 		newTrie.insert("API");
 		newTrie.insert("APIS");
+		newTrie.delete("API");
+		newTrie.search("APIS");
+		
 	}
 }
